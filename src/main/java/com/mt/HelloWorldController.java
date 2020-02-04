@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/")
-public class EmployeeService {
+@RequestMapping("/") {
+public class EmployeeService 
 
 	
 	@RequestMapping(value = "/getEmployeeDetails", method = RequestMethod.GET)
